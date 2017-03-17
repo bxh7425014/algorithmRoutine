@@ -13,7 +13,7 @@ import java.util.regex.Pattern;
  *  1、仅包含一个“@”字符  
  *  2、最后三个字符必须是“.com”  
  *  3、字符之间没有空格  
- *  4、有效字符为19、az、AZ、“.”、“@”、“”
+ *  4、有效字符为09、az、AZ、“.”、“@”、“”
  *  输入:
  *  字符串
  *  输出:
@@ -26,6 +26,7 @@ import java.util.regex.Pattern;
 public class CheckEmailAddress {
 	/**
 	 * 正则表达式在线验证地址：http://rubular.com
+	 * 正则表达式的语法参考：http://www.runoob.com/regexp/regexp-tutorial.html
 	 * Email地址有效性校验
 	 */
 	public static void test() {
