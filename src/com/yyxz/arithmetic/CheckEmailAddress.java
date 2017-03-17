@@ -33,6 +33,7 @@ public class CheckEmailAddress {
 		System.out.println("请输入等待校验的Email地址：");
 		Scanner inputScanner = new Scanner(System.in);
 		String inputEmailAddr = inputScanner.nextLine();
+		inputScanner.close();
 		String check = "^[a-zA-Z0-9_.-]+@[a-zA-Z0-9_-]+(\\.)com$";
 		Pattern regex = Pattern.compile(check);
 		Matcher matcher = regex.matcher(inputEmailAddr);
