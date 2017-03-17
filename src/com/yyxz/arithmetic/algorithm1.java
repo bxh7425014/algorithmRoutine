@@ -9,5 +9,9 @@ package com.yyxz.arithmetic;
  * 样例输出:	edcba
  */
 public class algorithm1 {
-
+	public static void test() {
+		String sh = "abcde";
+		String reverseStr = new StringBuilder(sh).reverse().toString();
+        System.out.println(sh + "交换前后顺序后是：" + reverseStr);
+	}
 }
