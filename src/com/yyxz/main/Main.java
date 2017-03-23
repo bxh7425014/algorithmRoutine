@@ -1,11 +1,11 @@
 package com.yyxz.main;
 
-import com.yyxz.arithmetic.algorithm4;
+import com.yyxz.arithmetic.algorithm8;
 
 public class Main {
 
 	public static void main(String[] args) {
-		algorithm4.test();
+		algorithm8.test();
 	}
 
 }
